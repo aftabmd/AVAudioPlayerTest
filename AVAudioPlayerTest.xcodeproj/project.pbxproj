@@ -21,6 +21,9 @@
 		0057F7E51887913900C2F1C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0057F7C71887913900C2F1C8 /* UIKit.framework */; };
 		0057F7ED1887913900C2F1C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0057F7EB1887913900C2F1C8 /* InfoPlist.strings */; };
 		0057F7EF1887913900C2F1C8 /* AVAudioPlayerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0057F7EE1887913900C2F1C8 /* AVAudioPlayerTestTests.m */; };
+		0057F83C1887A92D00C2F1C8 /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0057F8391887A92D00C2F1C8 /* music1.mp3 */; };
+		0057F83D1887A92D00C2F1C8 /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0057F83A1887A92D00C2F1C8 /* music2.mp3 */; };
+		0057F83E1887A92D00C2F1C8 /* music3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0057F83B1887A92D00C2F1C8 /* music3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		0057F7EA1887913900C2F1C8 /* AVAudioPlayerTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVAudioPlayerTestTests-Info.plist"; sourceTree = "<group>"; };
 		0057F7EC1887913900C2F1C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0057F7EE1887913900C2F1C8 /* AVAudioPlayerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioPlayerTestTests.m; sourceTree = "<group>"; };
+		0057F8391887A92D00C2F1C8 /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
+		0057F83A1887A92D00C2F1C8 /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music2.mp3; sourceTree = "<group>"; };
+		0057F83B1887A92D00C2F1C8 /* music3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music3.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		0057F7C91887913900C2F1C8 /* AVAudioPlayerTest */ = {
 			isa = PBXGroup;
 			children = (
+				0057F8391887A92D00C2F1C8 /* music1.mp3 */,
+				0057F83A1887A92D00C2F1C8 /* music2.mp3 */,
+				0057F83B1887A92D00C2F1C8 /* music3.mp3 */,
 				0057F7D21887913900C2F1C8 /* AppDelegate.h */,
 				0057F7D31887913900C2F1C8 /* AppDelegate.m */,
 				0057F7D51887913900C2F1C8 /* Main.storyboard */,
@@ -230,6 +239,9 @@
 			files = (
 				0057F7DC1887913900C2F1C8 /* Images.xcassets in Resources */,
 				0057F7CE1887913900C2F1C8 /* InfoPlist.strings in Resources */,
+				0057F83E1887A92D00C2F1C8 /* music3.mp3 in Resources */,
+				0057F83C1887A92D00C2F1C8 /* music1.mp3 in Resources */,
+				0057F83D1887A92D00C2F1C8 /* music2.mp3 in Resources */,
 				0057F7D71887913900C2F1C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
